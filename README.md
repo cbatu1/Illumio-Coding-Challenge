@@ -14,6 +14,10 @@ unit or as a range.
 
 An `equals()` method was also added in the `Rule.java` class to check if any two rules are the same.
 
+#### Testing
+
+Testing of the `Firewall.java` class was done through `JUnit5` within the `FirewallTest.java` class.
+
 #### Future Optimizations
 
 To further improve linear runtime complexity, each rule could act as a key within a hashmap and any incoming packets could used to search the 
