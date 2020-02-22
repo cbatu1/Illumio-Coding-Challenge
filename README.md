@@ -3,7 +3,7 @@ My solution to the Illumio Coding Challenge for the Summer 2020 Internships.
 
 #### Thought Process Behind the Solution
 
-The `Firewall.java` is the main class that includes a constructor that takes in a file path as a parameter for the input rules.
+Within the given timeframe I was able to implement a solution as described below. The `Firewall.java` is the main class that includes a constructor that takes in a file path as a parameter for the input rules.
 It goes through the inputted csv file line by line and creates new `Rule` instances using the `Rule.java` class and adds them to 
 a HashSet.
 
@@ -16,7 +16,7 @@ An `equals()` method was also added in the `Rule.java` class to check if any two
 
 #### Testing
 
-Testing of the `Firewall.java` class was done through `JUnit5` within the `FirewallTest.java` class.
+Testing of the `Firewall.java` class was done through `JUnit5` within the `FirewallTest.java` class where the `InputRules.csv` file was used as a parameter for the `Firewall` class.
 
 #### Future Optimizations
 
